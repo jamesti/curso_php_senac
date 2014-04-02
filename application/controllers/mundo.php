@@ -13,7 +13,7 @@ class Mundo extends CI_Controller {
     
     public function legal($n1 = 0, $n2 = 0) {
         $soma = $n1 + $n2;
-        echo "A soma e $soma";
+        echo "A soma e $soma e o resto e resto.";
     }
     
     public function index() {
